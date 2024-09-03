@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>
+        h1{
+            color: rgb(205, 205, 219);
+            text-align: center;
+            font-size: 400%;
+        }
+        div{
+            border: 98px;
+            border-radius: 56px solid;
+            border: 5px ;
+            box-shadow: 10px greenyellow;
+            border-radius: 25px;
+            background-color: rgb(11, 14, 236);
+            margin: 150px;
+    
+            background-color: rgb(14, 86, 241);
+            margin-left: 35px;
+            margin-right: 35px;
+        }
+        form{
+            text-align: center;
+        }
+        label{
+            font-size: 20px;
+            color: brown;
+              
+        }
+        input{
+            background-color: azure;
+        }
+        body{
+            background-color: beige;
+        }
+    
+
+    </STYLE>
+</head>
+<body>
+    <div>
+    <h1>FACE BOOK</h1>
+</div>
+<form action="/action_page.php" >
+    <label  for="Uname">USER NAME:</label>
+    <input  class="input" type="text" ><br><br><br>
+    <label for="Pswd">PASSWORD :</label>
+    <input type="text"  class="input"><br><br><br>
+    
+    <input  type="submit" value="LOGIN"><br><br>
+    <input type="submit" value="forgot password">  
+     
+</form>
+  
+</body>
+
+</body>
+</html>
